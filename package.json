@@ -1,6 +1,6 @@
 {
   "name": "gulp-runner",
-  "description": "Run your gulp tasks from Atom.",
+  "description": "Run your gulp tasks from Atom. Fork of awesome grunt-runner",
   "keywords": [
     "gulp",
     "task",
@@ -11,12 +11,12 @@
     "package",
     "run"
   ],
-  "version": "0.5.1",
-  "repository": "https://github.com/nickclaw/atom-gulp-runner",
+  "version": "0.0.0",
+  "repository": "https://github.com/manolenso/atom-grunt-runner",
   "license": "MIT",
   "author": {
-    "name": "Nicholas Clawson",
-    "url": "http://nickclaw.com"
+    "name": "Laurent Rémy",
+    "url": ""
   },
   "main": "./lib/gulp-runner.coffee",
   "engines": {
