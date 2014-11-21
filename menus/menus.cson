@@ -3,12 +3,12 @@
     'label': 'Packages'
     'submenu': [
       {
-        'label': 'Grunt Runner'
+        'label': 'Gulp Runner'
         'submenu': [
-            {'label': 'Choose Task', 'command': 'grunt-runner:run'}
-            {'label': 'Stop Task', 'command': 'grunt-runner:stop'}
-            {'label': 'Toggle Log', 'command': 'grunt-runner:toggle-log'}
-            {'label': 'Toggle Panel', 'command': 'grunt-runner:toggle-panel'}
+            {'label': 'Choose Task', 'command': 'gulp-runner:run'}
+            {'label': 'Stop Task', 'command': 'gulp-runner:stop'}
+            {'label': 'Toggle Log', 'command': 'gulp-runner:toggle-log'}
+            {'label': 'Toggle Panel', 'command': 'gulp-runner:toggle-panel'}
         ]
       }
     ]

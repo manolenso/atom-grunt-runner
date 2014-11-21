@@ -1,17 +1,17 @@
 ###
 Nicholas Clawson -2014
 
-To be launched by an Atom Task, uses packages own grunt
-installation to parse a projects Gruntfile
+To be launched by an Atom Task, uses packages own gulp
+installation to parse a projects Gulpfile
 ###
 
-grunt = require 'grunt'
+gulp = require 'gulp'
 
-# attempts to load the gruntfile
+# attempts to load the gulpfile
 module.exports = (path) ->
     try
-        require(path)(grunt)
+        require(path)(gulp)
     catch e
         error = e.code
 
-    return {error: error, tasks: Object.keys grunt.task._tasks}
+    return {error: error, tasks: Object.keys gulp.task._tasks}
